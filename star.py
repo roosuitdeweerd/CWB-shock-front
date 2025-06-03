@@ -126,8 +126,6 @@ plt.plot(R0_xcoords,R0_ycoords, color ='g', label = 'R0', linestyle = '--')
 plt.xlabel("distance (AU)")
 plt.ylabel("distance (AU)")
 plt.legend()
-#plt.savefig('C:/Users/roosu/OneDrive/bachelor project/shockfront (from within binary) WR140.png')
-#plt.savefig('C:/Users/roosu/OneDrive/bachelor project/shockfront (from within binary) Apep.png')
 #plt.show()
 
 # placing the binary system in the sky 
@@ -201,8 +199,6 @@ ax.set_ylabel("Declination (J2000, °:′:″)")
 ax.invert_xaxis()     
 ax.legend()
 fig.tight_layout(pad=0.5)
-#fig.savefig('C:/Users/roosu/OneDrive/bachelor project/shockfront (as observed from earth) WR140.png')
-#fig.savefig('C:/Users/roosu/OneDrive/bachelor project/shockfront (as observed from earth) Apep.png')
 #plt.show()
 
 # calculate error margins
